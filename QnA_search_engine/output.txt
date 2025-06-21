@@ -1,0 +1,16 @@
+Processing Query: What were Gandhi's views on the manner of how one should eat?
+==========================================
+Top 5 paragraphs:
+9 484 4
+44 92 1
+15 501 3
+26 428 1
+14 246 2
+Processing Query: Who was Mahatma Gandhi?
+==========================================
+Top 5 paragraphs:
+51 322 1
+83 355 1
+29 58 4
+79 457 2
+45 386 4
