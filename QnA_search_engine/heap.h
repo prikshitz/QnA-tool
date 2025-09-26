@@ -10,7 +10,7 @@ public:
 
     heap(vector<pair<double, string>>& arr2);
 
-    bool compare(pair<double, string> p1, pair<double, string> p2);
+    bool compare(pair<double, string> &p1, pair<double, string> &p2);
     void buildheap();
     int parent(int index);
     int left(int index);

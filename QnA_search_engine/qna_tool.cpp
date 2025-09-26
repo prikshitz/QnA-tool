@@ -117,7 +117,7 @@ Node* QNA_tool::get_top_k_para_tfidf(string question, int k){
         int start = i;
         while(i<n&& isalnum(question[i]))i++;
         string word = question.substr(start, i-start);
-        vector<pair<Node*, int>> paras = d->getparas(word);   
+        vector<pair<Node*, int>>& paras = d->getparas(word);   
 
         for(pair<Node*, int>& para: paras){
             if(para.first->sentence_no<200) para.first->sentence_no = 200;

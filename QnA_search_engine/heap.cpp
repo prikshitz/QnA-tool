@@ -11,7 +11,7 @@ using namespace std;
         size = arr.size();
         buildheap();
     }
-    bool heap:: compare(pair<double, string> p1, pair<double, string> p2){
+    bool heap:: compare(pair<double, string> &p1, pair<double, string> &p2){
         return p1.first<= p2.first;
     }
     void heap:: buildheap(){
